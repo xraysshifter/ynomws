@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<title> HALL OF FAME & WEALTH </title>
+	</head>
+	<body>
+		<div id="home">
+			<p> WELCOME ON <h1>YOURNAMEONMYWEBSITE.COM</h1> </p>
+		</div>
+		<div id="imgcontainer">
+
+			<img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2F-2262.jpg&f=1&nofb=1&ipt=ccd298dbfc114757a51cbd8769d5aea2b925a6fcc30e5e1b5f3720631c1133d7&ipo=images">
+
+		</div>
+
+		<h2> As you can see, a lot of FAMOUS & RICH people already bought their space in here !! </h2>
+		<h1>  DO THE SAME!! </h1>	
+		<p> If you wan't to be POPULAR and RICH do the same as Mark Zuckerberg or even Elon Musk!! </p>
+		
+		<p> You can BUY your space in this Hall of FAME & WEALTH list with a minimum price of 100$!! </p>
+		<h2> (the MORE you PAY, the HIGHER you'll be in the LIST!!!) </h2>
+	
+		<h1>COME ON!!! OPEN YOUR WALLET NOW, AND PAY TO BE ASSOCIATED WITH THE MOST FAMOUS & RICH PEOPLE IN THE WORLD!!!</h1>
+		
+		<h2> ↓↓↓ pay at the bottom of the page ↓↓↓ </h2>
+
+
+		<div id="namelist">
+			
+			{% for name, ammount in names|zip(paid)%}
+					<p>{{name}}</p>
+					<h3> {{randomchoice(gwords)}} paid: <h2>{{ammount}} $ </h2></h3>
+			{% endfor %}
+		</div>
+
+		<div id="credits">
+			
+			<p> website provided, launched, executed, written, hosted by Nans Pointud, David Martin </p>
+			<h2>D.N. inc.©®</h2>
+
+		</div>
+	</body>	
+
+</html>

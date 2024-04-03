@@ -1,0 +1,72 @@
+@font-face {
+font-family: "arial";
+src : url("fonts/arial.ttf") format("truetype")
+}
+
+@font-face {
+font-family: "lato-t";
+src : url("fonts/Lato-Thin.ttf") format("truetype")
+}
+
+@font-face {
+font-family: "lato";
+src : url("fonts/Lato-Regular.ttf") format("truetype")
+}
+
+#home h1{
+color : #cfc9f9;
+}
+
+body {
+margin : 0;
+padding : 0;
+background-color : black;
+display : flex;
+flex-direction : column;
+justify-content:center;
+align-items : center;
+color : whitesmoke;
+text-align: center;
+}
+
+img {
+width :800px;
+height : 200px;
+}
+
+h1{
+font-size : 30px;
+font-family : "arial";
+width : 800px;
+}
+
+h2{
+font-size : 20px;
+font-family : "lato-t";
+}
+
+p{
+font-family: "lato";
+}
+
+#namelist{
+font-size : 30px;
+margin : 0px;
+}
+
+#namelist h2{
+font-family : "lato";
+}
+
+#namelist h3{
+font-family : "lato-t";
+font-size : 20px;
+}
+
+#namelist p {
+color : #cfc9f9;
+}
+
+#namelist h2{
+color :#cff9c9;
+}
